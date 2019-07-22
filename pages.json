@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/tab-home.png"
+		}, {
+			"pagePath": "pages/index/",
+			"text": "客户",
+			"iconPath": "static/img/kehu.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "门店",
+			"iconPath": "static/img/mendian.png",
+			"selectedIconPath": "static/img/tab-mendian.png"
+		}, {
+			"pagePath": "pages/index/",
+			"text": "购物车",
+			"iconPath": "static/img/car.png",
+			"selectedIconPath": "static/img/tab-car.png"
+		}, {
+			"pagePath": "pages/index/",
+			"text": "我的",
+			"iconPath": "static/img/me.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#0081ff",
+		"backgroundColor": "#F8F8F8"
+	}
+}
